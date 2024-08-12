@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Profile</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: lightblue;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+            font-weight: 300;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #004080;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0073e6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .bio {
+            display: flex;
+            align-items: center;
+        }
+        .bio img {
+            max-width: 300px;
+            border-radius: 50%;
+            margin-right: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .bio p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .portfolio img {
+            max-width: 32%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .portfolio img:hover {
+            transform: scale(1.05);
+        }
+        .contact p {
+            font-size: 1.1rem;
+        }
+        footer {
+            background-color: lightblue;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #b3d9ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aiah Arceta</h1>
+        <p>Beauty Queen | Singer | Bini Member</p>
+    </header>
+
+
+    <div class="container">
+        <section id="bio" class="bio">
+            <img src="a.jpg" alt="Artist Image">
+            <div>
+                <h2>About the Artist</h2>
+                <p>Maraiah Queen Arceta (born January 27, 2001) better known as Aiah. She is the eldest member, main rapper & visual of the Filipino girl group BINI. She entered as a trainee in Star Hunt Academy in 2019.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            
+            <img src="d.jpg" alt="Artwork 1">
+            <img src="b.jpg" alt="Artwork 2">
+            <img src="e.jpg" alt="Artwork 3">
+        </section>
+    </div>
+
+    <footer>
+        
+        <p>
+            <a href="https://www.facebook.com/aiaharceta.official" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/bini_aiah/" target="_blank">Instagram</a> | 
+            <a href="https://x.com/bini_aiah" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
